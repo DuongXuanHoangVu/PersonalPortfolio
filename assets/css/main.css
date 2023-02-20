@@ -81,6 +81,11 @@
     margin-left: 6px;
 }
 
+.icons span:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
 
 .main {
     padding: 52px 76px;
@@ -100,6 +105,12 @@
     margin-bottom: 44px; */
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: transform linear 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    cursor: pointer;
 }
 
 
@@ -134,6 +145,11 @@
 
 .card-icons {
     font-size: 2.8rem;
+}
+
+.card-icons span:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 .card-name p {
@@ -201,6 +217,11 @@
 .footer-icons span {
     display: inline-block;
     margin-right: 10px;
+}
+
+.footer-icons span:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
 
 .footer-img {
